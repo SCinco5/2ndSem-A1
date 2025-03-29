@@ -1,0 +1,33 @@
+body {
+    background-color: #f4e1d2;
+}
+
+
+.image-container{
+    text-align: center;
+    /* to make the text center */
+    margin: 20px;
+    /* to make the whole div center */
+}
+
+.image-placement{
+    display: flex;
+    justify-content: center;
+    /* to make the images placement in a row */
+    gap: 30px;
+    /* to have spacing between each images */
+    margin-top: 100px;
+    /* spacing between the top of page and images */
+}
+
+.pic1{
+    filter: grayscale(80%)
+}
+
+.pic2{
+    filter: sepia(70%)
+}
+
+.pic3 {
+    filter:brightness(1.2) contrast(1.5)
+}
