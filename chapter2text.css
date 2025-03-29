@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    /* to make the paragraph text color into white and its background black */
+
+}
+main{
+    margin: 90px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 130px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px; 
+    /* to add the title have a different font and a bigger size */
+}
+
+.navbar ul{
+    list-style-type:none; 
+    /* removes the bullets from each text in menu bar */
+    background-color: rgb(144, 7, 7);
+    padding: 0px;
+    margin-top: -30px;
+    /* to align the menu bar just below the marvel */
+    overflow: hidden;
+    /* to make sure the texts don't overflow the box*/
+    display: flex; 
+    /* to align the items */
+    justify-content: center; 
+    gap: 100px; 
+    /* the gap between the texts inside the menu bar */
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    /* to make the menu bar have a portioned height size */
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-family:sans-serif
+}
+.navbar a:hover{
+    background-color:rgb(83, 0, 0)
+}
+.navbar li{
+    float: none;
+    /* to make sure that the texts stay inside the menu bar */
+}
+
