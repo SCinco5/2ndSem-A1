@@ -1,0 +1,65 @@
+#calculator {
+    /* using this targets everyting under the id="calculator" */
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #74003c;
+    border-radius: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin:10px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input:focus {
+    /* this is when the input box is focused on. 
+    for example when it is being clicked or selected */
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #0056b3
+
+}
+
+#totalCost{
+    background-color: #74003c;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+body {
+    background-image: url('pic4.jpg');
+    background-size: cover;
+    /* makes the bg image cover the whole screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* prevents the image from repeating */
+    color: white;
+}

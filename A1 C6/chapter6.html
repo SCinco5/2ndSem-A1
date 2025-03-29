@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>chapter6</title>
+    <link rel="stylesheet" href="chapter6.css">
+    <!-- a css external style to easily design my page-->
+</head>
+<body>
+    <div id="calculator">
+        <!-- to group all the elements together and is given an ID calculator 
+         so I can style it and be able to be interacted using Javascipt. -->
+        <h3>Your very own</h3>
+        <h1>⭐Petrol Calculator⭐</h1>
+
+        <label>Cost per Liter (PHP):</label><br/>
+        <!-- so i can define a label for the input below it -->
+        <input type="number" id="costPerLiter" value="62.75" step="0.01"><br/>
+        <!-- the input type number allows the user to enter their own number however its set to 62.75, but they can change it.
+         the id="costPerLiter is used so I can edit it in Javascript.
+         The value is made as 62.75 as I made it the current value price of the Philippines-->
+
+        <label>Liters Purchased:</label><br/>
+        <!-- basically the description for the next input -->
+        <input type="number" id="liters" value="0"><br/>
+        <!-- this allows the user to input on how much liters they've purchased. 
+         it starts of with 0 as the default -->
+
+
+        <button onclick="calculateTotal()">Calculate</button>
+        <!-- this is a clickable button that can be worked because of the Javascript function -->
+       
+        <div id="totalCost">
+           <span id="totalCost">Total Cost: 0.00 PHP</span> 
+           <!-- this displays the total cost after calculating what the user has inputted.
+            With Total Cost: 0.00 PHP, that is the default text and number before the user puts anything. -->
+        </div>
+    </div>
+
+    <script src = "chapter6.js" type="text/javascript"></script>
+    <!-- this is the external linking of javascript -->
+    
+    
+
+</body>
+</html>
