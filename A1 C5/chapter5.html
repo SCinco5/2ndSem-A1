@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>chapter5</title>
+    <style>
+        body {
+            display:flex;
+            /* this one mostly helps center everything on the page */
+            justify-content: center;
+            /* centers horizontally */
+            align-items: center;
+            /* centers vertically */
+            height: 100vh;
+            margin: 0;
+            /* removes extra spaces in the page */
+            background-color: pink;
+            /* used internal style for designing */
+        }
+    </style>
+</head>
+<body>
+    <video id="myVideo" width ="800" height="500" controls loop poster="nikipic.png" >
+        <!-- video id makes it possible to have an id so javascript can control it. controls gives the video a pause, play, and volume buttons. loop makes the video repeat until stopped. poster is the image. -->
+        <source src="NIKI - Backburner (Official Music Video).mp4" type="video/mp4" >
+        <!-- the video source -->
+    </video>
+
+    <script>
+        // javascript code
+        window.onload=function(){
+            // runs the code after the page loads
+            let video= document.getElementById("myVideo");
+            // finds video with the video id
+            setTimeout(() => {
+                video.play;
+            }, 1000);
+            // waits 1 second before playing the video
+            };
+    </script>
+</body>
+</html>
