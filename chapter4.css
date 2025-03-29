@@ -1,0 +1,88 @@
+body{
+    font-family: Arial;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: white;
+}
+
+header {
+    background-color: #17072b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    /* to remove the underline and other text decorations added there initially */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+#Welcome {
+    flex: 2;
+    padding: 20px;
+    background: white;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+#sidebar {
+    flex: 1;
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+}
+
+#sidebar h2 {
+    font-family: Tahoma;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-top: 10px;
+    /* to arrange images in a row with spaces in between */
+}
+
+.images img {
+   object-fit: cover;
+   /* to make the images fill their container */
+}
+
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding:  6px;
+    position: relative;
+    bottom: 8;
+    width: 100%;
+}
